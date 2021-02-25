@@ -2,6 +2,7 @@ import { ExperienceBar } from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
 import { CompletedChallenges } from '../components/CompletedChallenges';
 import { Countdown } from '../components/Countdown';
+import { ChallengeBox } from '../components/ChallengeBox';
 
 import Head from 'next/head';
 
@@ -24,7 +25,7 @@ export default function Home() {
           <Countdown />
         </div>
         <div>
-
+          <ChallengeBox/>
         </div>
       </section>
 
@@ -36,3 +37,4 @@ export default function Home() {
 // npx create-next-app moveit-next
 // #rumoaoproximonivel
 // #jornadainfinita
+// #focopraticagrupo
